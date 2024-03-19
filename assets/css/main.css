@@ -3071,3 +3071,7 @@ footer .bottom-footer .social-links {
     transition: 10s;
     background-image: linear-gradient(210deg, #fdc830, #0084fb);
 }
+
+#curriculum{
+    text-align: center;
+}
