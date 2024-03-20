@@ -541,9 +541,16 @@ header .navigation-bar nav ul ul ul {
 }
 .about-us-section {
     padding: 124px 0 100px;
+ 
 }
 .about-us-section .about-sec {
     margin-bottom: 65px;
+  
+}
+.about-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .about-us-section .about-sec .abt-col {
     background-color: #fff;
@@ -674,6 +681,12 @@ header .navigation-bar nav ul ul ul {
     font-size: 18.29px;
     font-weight: 700;
     font-family: Poppins, sans-serif;
+}
+button{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(174, 214, 228);
 }
 .teachers-section {
     padding: 45px 0 138px;
@@ -1448,9 +1461,10 @@ footer .bottom-footer .social-links {
 .schedule-page .schedule-content {
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    border-left: 1px solid #e5dfdf;
+    /* border-left: 1px solid #e5dfdf; */
     border-radius: 20px 0 0 0;
 }
 .schedule-page .schedule-content .schp-list {
@@ -3070,4 +3084,7 @@ footer .bottom-footer .social-links {
 .back-to-top:hover {
     transition: 10s;
     background-image: linear-gradient(210deg, #fdc830, #0084fb);
+}
+.centre{
+    justify-content: center;
 }
