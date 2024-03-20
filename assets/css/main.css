@@ -3075,3 +3075,19 @@ footer .bottom-footer .social-links {
 #curriculum{
     text-align: center;
 }
+
+.class-thumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.avt-img{
+    overflow: hidden;
+    height: 570px;
+    width: 570px;
+    border-radius: 50%;
+}
