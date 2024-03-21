@@ -1502,23 +1502,23 @@ footer .bottom-footer .social-links {
 }
 .schedule-page .schedule-content .schp-list li .mkd-info {
     padding: 41px 20px 35px;
-    background: linear-gradient(180deg, #fdc830, #0084fb);
+    /* background: linear-gradient(180deg, #d6e0e7, #0084fb); */
     text-align: center;
     height: 100%;
 }
 .schedule-page .schedule-content .schp-list li .mkd-info.bg-2 {
-    background: linear-gradient(180deg, #159957, #155799);
+    /* background: linear-gradient(180deg, #799989, #155799); */
 }
 .schedule-page .schedule-content .schp-list li .mkd-info > h3 {
     font-size: 18px;
     line-height: 20px;
-    color: #fff;
+    /* color: #fff; */
     font-weight: 600;
     margin-bottom: 17px;
 }
 .schedule-page .schedule-content .schp-list li .mkd-info > span {
     display: block;
-    color: #f2f7fd;
+    /* color: #f2f7fd; */
     font-size: 18px;
     font-style: italic;
     font-family: Poppins, sans-serif;
