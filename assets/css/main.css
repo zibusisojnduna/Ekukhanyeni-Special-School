@@ -512,7 +512,7 @@ header .navigation-bar nav ul ul ul {
     padding: 0;
     right: 20px;
     border: 0;
-    color: #155799;
+    color: #0084fb;
     background-color: inherit;
     transform: translateY(-50%);
     transition: all 0.4s ease-in-out;
@@ -2717,7 +2717,7 @@ footer .bottom-footer .social-links {
 }
 .class-sidebar .widget-classes-carousel .slick-dots li.slick-active button {
     width: 20px;
-    background: linear-gradient(270deg, #159957, #155799);
+    background: linear-gradient(270deg, white, #0084fb);
 }
 .class-sidebar .widget-contact-dp {
     background-color: #fff;
