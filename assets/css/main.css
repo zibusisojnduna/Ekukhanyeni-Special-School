@@ -122,10 +122,11 @@ button {
 button:focus {
     outline: none;
 }
-img {
-    vertical-align: middle;
-    height: auto;
-}
+ img {
+     vertical-align: middle;
+    height: auto;  
+
+} 
 a:focus,
 a:hover {
     text-decoration: none;
@@ -541,9 +542,16 @@ header .navigation-bar nav ul ul ul {
 }
 .about-us-section {
     padding: 124px 0 100px;
+ 
 }
 .about-us-section .about-sec {
     margin-bottom: 65px;
+  
+}
+.about-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .about-us-section .about-sec .abt-col {
     background-color: #fff;
@@ -674,6 +682,12 @@ header .navigation-bar nav ul ul ul {
     font-size: 18.29px;
     font-weight: 700;
     font-family: Poppins, sans-serif;
+}
+button{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(174, 214, 228);
 }
 .teachers-section {
     padding: 45px 0 138px;
@@ -1448,9 +1462,10 @@ footer .bottom-footer .social-links {
 .schedule-page .schedule-content {
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    border-left: 1px solid #e5dfdf;
+    /* border-left: 1px solid #e5dfdf; */
     border-radius: 20px 0 0 0;
 }
 .schedule-page .schedule-content .schp-list {
@@ -1488,23 +1503,23 @@ footer .bottom-footer .social-links {
 }
 .schedule-page .schedule-content .schp-list li .mkd-info {
     padding: 41px 20px 35px;
-    background: linear-gradient(180deg, #fdc830, #0084fb);
+    /* background: linear-gradient(180deg, #d6e0e7, #0084fb); */
     text-align: center;
     height: 100%;
 }
 .schedule-page .schedule-content .schp-list li .mkd-info.bg-2 {
-    background: linear-gradient(180deg, #159957, #155799);
+    /* background: linear-gradient(180deg, #799989, #155799); */
 }
 .schedule-page .schedule-content .schp-list li .mkd-info > h3 {
     font-size: 18px;
     line-height: 20px;
-    color: #fff;
+    /* color: #fff; */
     font-weight: 600;
     margin-bottom: 17px;
 }
 .schedule-page .schedule-content .schp-list li .mkd-info > span {
     display: block;
-    color: #f2f7fd;
+    /* color: #f2f7fd; */
     font-size: 18px;
     font-style: italic;
     font-family: Poppins, sans-serif;
@@ -3071,6 +3086,9 @@ footer .bottom-footer .social-links {
     transition: 10s;
     background-image: linear-gradient(210deg, #fdc830, #0084fb);
 }
+.centre{
+    justify-content: center;
+}
 
 #curriculum{
     text-align: center;
@@ -3089,5 +3107,5 @@ footer .bottom-footer .social-links {
     overflow: hidden;
     height: 570px;
     width: 570px;
-    border-radius: 50%;
+   
 }
