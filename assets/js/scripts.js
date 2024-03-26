@@ -175,3 +175,23 @@
     } )
 
 } ( jQuery ) );
+
+function Volunteer(){
+    document.getElementById("overlay1").style.display = "block"
+}
+
+function Donate(){
+    document.getElementById("overlay1").style.display = "block"
+}
+
+function Partner(){
+    document.getElementById("overlay1").style.display = "block"
+}
+
+function Contacts(){
+    document.getElementById("overlay1").style.display = "block"
+}
+
+// function Confirm(){
+//     document.getElementById("overlay1").style.display = "block"
+// }

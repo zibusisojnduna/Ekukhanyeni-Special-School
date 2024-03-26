@@ -83,9 +83,7 @@
 								</ul>
 							</li>
 							<li><a href="classes.html" title="">Programmes</a>
-								<ul>
-									<li><a href="class-single.html" title="">Programmes Single</a></li>
-								</ul>
+								
 							</li>
 							<li><a href="teachers.html" title="">Teaching Staff</a>
 								
@@ -114,7 +112,6 @@
 				<li><a href="events.html" title="">Events</a></li>
 				<li><a href="schedule.html" title="">Schedule</a></li>
 				<li><a href="classes.html" title="">Programmes</a></li>
-				<li><a href="class-single.html" title="">Programmes Single</a></li>
 				<li><a href="teachers.html" title="">Teaching Staff</a></li>
 				<!-- <li><a href="blog.html" title="">Blog</a></li>
 				<li><a href="post.html" title="">Blog Single</a></li> -->
@@ -172,7 +169,10 @@
 										</div>
 										<div class="col-lg-12">
 											<div class="form-submit">
-												<button type="button" id="submit" class="btn-default">Confirm<i class="fa fa-long-arrow-alt-right"></i></button>
+												<button type="button" id="submit" class="btn-default" onclick="Confrim()">Confirm<i class="fa fa-long-arrow-alt-right"></i></button>
+												<div id="overlay1">
+													<h2>Thank you! We will get in touch as soon as we can.</h2>
+												</div>
 											</div><!--form-submit end-->
 										</div>
 									</div>
@@ -230,7 +230,7 @@
 					<div class="row align-items-center">
 						<div class="col-lg-4">
 							<div class="newsz-ltr-text">
-								<h2>BECOME <br /> OUR SPONSOR</h2>
+								<h2>BECOME A<br />  SPONSOR</h2>
 								<a href="contacts.html" title="" class="btn-default">Submit <i class="fa fa-long-arrow-alt-right"></i></a>
 							</div><!--newsz-ltr-text end-->
 						</div>
@@ -249,14 +249,13 @@
 									</div>
 									<div class="col-md-4">
 										<div class="form-group">
-											<input type="email" name="Cell" placeholder="Cellphone">	
-											</select>
+											<input type="tel" name="Cell" placeholder="Phone Number">	
 										</div><!--form-group end-->
 									</div>
-									<div class="col-md-12">
+									<!-- <div class="col-md-12">
 										<div class="form-group">
 											<textarea name="message" placeholder="Message"></textarea>
-										</div><!--form-group end-->
+										</div>form-group end -->
 									</div>
 								</div>
 							</form><!--newsletter-form end-->
@@ -273,7 +272,13 @@
 						<div class="col-lg-3 col-md-6 col-sm-6">
 							<div class="widget widget-about">
 								<img src="src/img/Ekukhanyeni Logo 2.jpg" width="75px" height="75px">
-								<p>We are committed  to guide/help learners who are intellectually impaired to be socially  economically and spiritually independent</p>
+								<p>We are committed  to guide/help learners who are intellectually impaired to be socially  economically and spiritually independent.</p>
+								
+											<br>
+											<img src="src/img/Department of Educatiuon.jpg" height="250px" width="250px">
+											<br>
+											<p>Sponsored By:</p>
+											<img src="src/img/sponsor.jpg" height="250px" width="250px">
 							</div><!--widget-about end-->
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6">
@@ -361,6 +366,7 @@
 <script src="assets/js/tweenMax.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/scripts.js"></script>
+<script src="emailapi.js"></script>
 
 </body>
 

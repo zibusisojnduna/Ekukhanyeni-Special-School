@@ -2251,7 +2251,7 @@ footer .bottom-footer .social-links {
     top: 0;
     left: 0;
     width: 300px;
-    background-color: #f79133;
+    background-color: #0084fb;
     -ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -3108,4 +3108,59 @@ footer .bottom-footer .social-links {
     height: 570px;
     width: 570px;
    
+}
+
+#overlay1{
+    text-align: center;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#0086fba9;
+    color:white;
+    z-index: 1;
+}
+
+#field{
+    border-radius: 20px;
+}
+
+#overlay2{
+    text-align: center;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#0086fba9;
+    color:white;
+    z-index: 1;
+}
+
+#overlay3{
+    text-align: center;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#0086fba9;
+    color:white;
+    z-index: 1;
+}
+
+#ty{
+    border-radius: 20px;
+    background-color: #0084fb;
+    color: white;
 }
